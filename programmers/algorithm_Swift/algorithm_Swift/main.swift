@@ -11,3 +11,16 @@
 
 import Foundation
 
+func solution(_ my_string:String) -> String {
+    var temp : [String] = []
+    var answer : String = ""
+    for i in my_string{
+        let str = String(i)
+        if !temp.contains(i){
+            answer+=str
+        }else{
+            temp.append(str)
+        }
+    }
+    return answer
+}
