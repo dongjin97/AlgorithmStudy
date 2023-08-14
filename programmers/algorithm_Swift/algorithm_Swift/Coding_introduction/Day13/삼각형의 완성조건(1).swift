@@ -6,7 +6,7 @@
 //
 
 import Foundation
-func solution(_ sides:[Int]) -> Int {
+func solutionTwoSide(_ sides:[Int]) -> Int {
     let max = sides.max()!
     let twoSideSum = sides.reduce(0,+) - max
     
