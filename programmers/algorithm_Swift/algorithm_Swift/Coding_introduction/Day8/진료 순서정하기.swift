@@ -6,7 +6,7 @@
 //
 
 import Foundation
-func solution(_ emergency:[Int]) -> [Int] {
+func solutionEmergency(_ emergency:[Int]) -> [Int] {
     var dict : [Int: Int] = [:]
     var count = 1
     var answer : [Int] = []
