@@ -7,7 +7,7 @@
 
 import Foundation
 func solution문자열계산하기(_ my_string:String) -> Int {
-    var str = my_string.split(separator: " ")
+    let str = my_string.split(separator: " ")
     var answer = Int(str[0])!
     for idx in 0..<str.count{
         if str[idx] == "+"{

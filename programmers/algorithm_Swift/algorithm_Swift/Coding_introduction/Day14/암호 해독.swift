@@ -7,7 +7,7 @@
 
 import Foundation
 func solution암호해독(_ cipher:String, _ code:Int) -> String {
-    var arrStr = Array(cipher)
+    let arrStr = Array(cipher)
     var answer = ""
     for i in 0..<arrStr.count{
         let num = i+1
