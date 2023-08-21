@@ -11,28 +11,3 @@
 
 import Foundation
 
-
-func solution(_ quiz:[String]) -> [String] {
-    var answer: [String] = []
-    for q in quiz{
-        let splitQ = q.split(separator:" ").map{String($0)}
-        let a = Int(splitQ[0])!
-        let b = splitQ[1]
-        let c = Int(splitQ[2])!
-        let d = Int(splitQ[4])!
-        if b == "-"{
-            if a-c == d{
-                answer.append("O")
-            }else{
-                answer.append("X")
-            }
-        }else{
-            if a+c == d{
-                answer.append("O")
-            }else{
-                answer.append("X")
-            }
-        }
-    }
-    return answer
-}
