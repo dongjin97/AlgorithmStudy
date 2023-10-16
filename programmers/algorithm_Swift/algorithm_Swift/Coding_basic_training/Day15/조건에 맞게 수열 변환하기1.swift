@@ -6,7 +6,7 @@
 //
 
 import Foundation
-func solution(_ arr:[Int]) -> [Int] {
+func solution조건에맞게수열변환하기(_ arr:[Int]) -> [Int] {
     var answer : [Int] = []
     for i in arr{
         if i >= 50 && i % 2 == 0{
