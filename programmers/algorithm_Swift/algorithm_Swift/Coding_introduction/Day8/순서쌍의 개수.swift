@@ -6,7 +6,7 @@
 //
 
 import Foundation
-func solution(_ n:Int) -> Int {
+func solution순서쌍의_개수(_ n:Int) -> Int {
     var answer = 0
     for i in 1...n{
         if n % i == 0{

@@ -6,7 +6,7 @@
 //
 
 import Foundation
-func solution(_ my_string:String) -> [Int] {
+func solution문자열_정렬하기1(_ my_string:String) -> [Int] {
     let num = ["0","1","2","3","4","5","6","7","8","9"]
     var answer : [Int] = []
     for i in my_string{

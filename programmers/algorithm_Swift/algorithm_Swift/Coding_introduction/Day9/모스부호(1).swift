@@ -6,7 +6,7 @@
 //
 
 import Foundation
-func solution(_ letter:String) -> String {
+func solution모스부호_1(_ letter:String) -> String {
     let morse : [String : String] = [
     ".-":"a", "-...":"b", "-.-.":"c", "-..":"d", ".":"e", "..-.":"f",
     "--.":"g","....":"h","..":"i",".---":"j","-.-":"k",".-..":"l",

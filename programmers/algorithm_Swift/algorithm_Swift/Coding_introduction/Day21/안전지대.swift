@@ -6,7 +6,7 @@
 //
 
 import Foundation
-func solution(_ board:[[Int]]) -> Int {
+func solution안전지대(_ board:[[Int]]) -> Int {
     let N = board.count
     var map = board
     for i in 0..<N{

@@ -6,7 +6,7 @@
 //
 
 import Foundation
-func solution(_ arr:[Int], _ query:[Int]) -> [Int] {
+func solution배열_조각하기(_ arr:[Int], _ query:[Int]) -> [Int] {
     var temp = arr
     for i in 0..<query.count{
         if i % 2 == 0{

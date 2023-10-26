@@ -6,7 +6,7 @@
 //
 
 import Foundation
-func solution(_ str_list:[String]) -> [String] {
+func solution왼쪽_오른쪽(_ str_list:[String]) -> [String] {
     var answer : [String] = []
     for i in 0..<str_list.count{
         let str = String(str_list[i])

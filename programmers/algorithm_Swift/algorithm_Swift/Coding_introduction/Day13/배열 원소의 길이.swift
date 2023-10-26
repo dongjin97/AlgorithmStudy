@@ -6,7 +6,7 @@
 //
 
 import Foundation
-func solution(_ strlist:[String]) -> [Int] {
+func solution배열_원소의_길이(_ strlist:[String]) -> [Int] {
     var answer : [Int] = []
     for i in strlist{
         answer.append(i.count)

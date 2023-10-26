@@ -6,7 +6,7 @@
 //
 
 import Foundation
-func solution(_ n:Int) -> [Int] {
+func solution소인수분해(_ n:Int) -> [Int] {
     if n == 2 {return [2] }
     var answer : [Int] = []
     var num = n

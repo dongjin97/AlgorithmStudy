@@ -6,7 +6,7 @@
 //
 
 import Foundation
-func solution(_ numbers:String) -> Int64 {
+func solution영어가_싫어요(_ numbers:String) -> Int64 {
     let numberStr = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" ]
     var temp = ""
     var answer = ""

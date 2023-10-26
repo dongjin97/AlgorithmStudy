@@ -6,7 +6,7 @@
 //
 
 import Foundation
-func solution(_ age:Int) -> String {
+func solution와계행성의_나이(_ age:Int) -> String {
     let ageArr = String(age)
     var answer = ""
     for i in ageArr{

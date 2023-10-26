@@ -6,7 +6,7 @@
 //
 
 import Foundation
-func solution(_ num_list:[Int]) -> Int {
+func solution찻반쪠로_나오는_음수(_ num_list:[Int]) -> Int {
     var answer = -1
     for i in 0..<num_list.count{
         if num_list[i] < 0{
