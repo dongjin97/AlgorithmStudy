@@ -8,8 +8,8 @@
 /*
  프로그래머스 코딩 기초 트레이닝 & 코딩테스트 입문
  */
-func solution(_ numlist:[Int], _ n:Int) -> [Int] {
-    return numlist.sorted(by: >).sorted{
-        return abs($0-n) < abs($1-n)
-    }
+import Foundation
+func solution_Test(_ bin1:String, _ bin2:String) -> String {
+    String(Int(bin1, radix: 2)! + Int(bin2, radix: 2)!, radix: 2)
 }
+
